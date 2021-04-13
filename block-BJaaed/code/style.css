@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Modular Class */
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  color: yellow;
+  display: block;
+  font-weight: 600;
+}
+
+header {
+  background-color: #0fc771;
+  padding: 2rem 0;
+}
+
+.list {
+  background-color: #f8e1e5;
+}
+
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list ul li {
+  flex: 0 1 25%;
+  background-color: azure;
+  text-align: center;
+  margin: 1rem;
+  padding: 1.5rem 1rem;
+  list-style-type: none;
+}
+
+img {
+  width: 70%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: gray;
+  padding: 0.5rem 0 2rem 0;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #3183e0;
+  border: none;
+  outline: 0;
+  border-radius: 4px;
+  color: aliceblue;
+}
