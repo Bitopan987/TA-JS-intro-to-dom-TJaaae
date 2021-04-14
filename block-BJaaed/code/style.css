@@ -37,6 +37,7 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+
 .list ul li {
   flex: 0 1 25%;
   background-color: azure;
