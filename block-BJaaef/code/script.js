@@ -67,7 +67,7 @@ allPeople.forEach((person) => {
 //     <p>
 //     ${person.description}
 //     </p>
-//     <a href=${person.wikiLink} class="button">Learn More</a>
+//     <button>Learn More</button>
 //   </li>`;
 // });
 // parentElm.innerHtml = cardHtml;
